@@ -1,0 +1,27 @@
+{
+    "cmake.configureOnOpen": false,
+    "idf.enableStatusBar": false,
+    "VsCodeTaskButtons.showCounter": false,
+    "VsCodeTaskButtons.tasks": [
+            {
+                "task": "Build project",
+                "label": "$(symbol-property) Build",
+            "tooltip": "build task"
+        },
+        {
+            "label": "$(debug-restart) Rebuild", 
+            "task": "Re-build project",
+            "tooltip": "rebuild task"
+        },
+        {
+            "label": "$(notebook-delete-cell) Clean",
+            "task": "Clean project",
+            "tooltip": "clean task"
+        },
+	    {
+            "label": "$(symbol-event) Flash",
+            "task": "CubeProg: Flash project (SWD)",
+            "tooltip": "flash firmware"
+        },
+    ]    
+}
